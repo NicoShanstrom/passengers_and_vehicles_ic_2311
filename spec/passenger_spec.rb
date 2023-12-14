@@ -4,6 +4,7 @@ RSpec.describe Passenger do
     before(:each) do
         @charlie = Passenger.new({"name" => "Charlie", "age" => 18})
         @taylor = taylor = Passenger.new({"name" => "Taylor", "age" => 12})
+        @jude = Passenger.new({"name" => "Jude", "age" => 20})
     end
 
     describe '#initialize' do
